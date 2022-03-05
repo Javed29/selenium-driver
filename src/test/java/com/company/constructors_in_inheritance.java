@@ -20,6 +20,7 @@ class Base1 {
 class Derived1 extends Base1 {
 	Derived1(){
 	System.out.println("hay i am a derived class  constructer");
+	System.out.println(" hi");
 }
 
 public int y;
@@ -42,7 +43,10 @@ public class constructors_in_inheritance {
 	public static void main(String[]args) {
 	Base1 b = new Base1	();
 	Derived1  d =new Derived1 ();
-		
+	
+	
+	
+	
 	}
 	}
 
